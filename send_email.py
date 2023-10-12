@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 import sys
 
 # Email configuration
-sender_email = "yashbari99@gmail.com"
-sender_password = "nglfaaeitnpgnvaz"
+sender_email = "your_mail_id"
+sender_password = "your_password"
 recipient_email = sys.argv[1]  # Recipient's email address from command-line argument
 foldername = sys.argv[2]  # Folder name from command-line argument
 password = sys.argv[3]  # Password from command-line argument
